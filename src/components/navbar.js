@@ -61,10 +61,10 @@ const LogoContainer = styled.div`
   display: flex;
   background: #e86927;
   border-radius: 0 0 30px;
-  padding: 12px 30px 12px 15px;
+  padding: 12px 30px 12px 0px;
   align-items: center;
   width: fit-content;
-  gap: 10px;
+  gap: 5px;
   height: 80px;
 
   @media only screen and (max-width: 1045px) {
@@ -79,9 +79,9 @@ const LogoContainer = styled.div`
     letter-spacing: 2px;
     color: #1f1f1f;
 
-    @media only screen and (max-width: 830px) {
-      font-size: 18px;
-    }
+    /* @media only screen and (max-width: 830px) {
+      font-size: 20px;
+    } */
   }
 `;
 
