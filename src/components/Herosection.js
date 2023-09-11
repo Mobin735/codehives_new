@@ -647,9 +647,9 @@ export default function Herosection(params) {
               <Corner
                 style={{
                   top: "auto",
-                  bottom: "-1px",
+                  bottom: "0px",
                   left: "auto",
-                  right: "-29px",
+                  right: "-30px",
                   transform: "rotate(-90deg)",
                 }}
               />
