@@ -329,7 +329,7 @@ export default function Navbar() {
             <Corner />
             <LogoContainer>
               <img src="Images/logo.png" alt="Logo" width={800} height={500} />
-              <p>C⬡DEHIVES</p>
+              <p>CodeHives</p>
             </LogoContainer>
             <Corner style={{ top: 0, left: "100%" }} />
           </Logo>
