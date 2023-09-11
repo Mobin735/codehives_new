@@ -27,7 +27,7 @@ const InnerContainer = styled.div`
   @media only screen and (max-width: 830px) {
     height: auto;
     flex-direction: column;
-    margin-top: 80px;
+    margin-top: 74px;
   }
 `;
 
@@ -386,7 +386,7 @@ const Left = styled.div`
             background-position: 50% 50%;
             background-size: cover;
             background-repeat: no-repeat;
-            background-image: url(/images/2.jpg);
+            background-image: url(../images/2.jpg);
             position: absolute;
             top: 0px;
             left: 0px;
