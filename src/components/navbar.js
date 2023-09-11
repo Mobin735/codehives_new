@@ -78,6 +78,10 @@ const LogoContainer = styled.div`
     font-weight: 600;
     letter-spacing: 2px;
     color: #1f1f1f;
+
+    @media only screen and (max-width: 830px) {
+      font-size: 18px;
+    }
   }
 `;
 
