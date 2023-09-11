@@ -78,6 +78,10 @@ const LogoContainer = styled.div`
     font-weight: 600;
     letter-spacing: 2px;
     color: #1f1f1f;
+
+    @media only screen and (max-width: 830px) {
+      font-size: 18px;
+    }
   }
 `;
 
@@ -292,7 +296,6 @@ const Theme = styled.div`
 `;
 
 export default function Navbar() {
-
   function MenuToggle(menuBtn) {
     const menu = document.getElementById("NavMenu");
     const corner = document.getElementById("SocialUl").nextElementSibling;
@@ -310,7 +313,6 @@ export default function Navbar() {
         menuBtn.style.border = "2px solid #1e1e1e";
         menuBtn.style.backgroundColor = "transparent";
         menuBtn.textContent = "Close";
-
       } else {
         menu.style.opacity = 0;
         corner.style.opacity = 0;
@@ -330,12 +332,7 @@ export default function Navbar() {
           <Logo>
             <Corner />
             <LogoContainer>
-              <img
-                src="Images/logo.png"
-                alt="Logo"
-                width={800}
-                height={500}
-              />
+              <img src="Images/logo.png" alt="Logo" width={800} height={500} />
               <p>C⬡DEHIVES</p>
             </LogoContainer>
             <Corner style={{ top: 0, left: "100%" }} />
