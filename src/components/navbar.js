@@ -331,7 +331,7 @@ export default function Navbar() {
             <Corner />
             <LogoContainer>
               <img
-                src="../images/logo.png"
+                src="Images/logo.png"
                 alt="Logo"
                 width={800}
                 height={500}
