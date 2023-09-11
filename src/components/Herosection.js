@@ -584,14 +584,14 @@ const Left = styled.div`
 export default function Herosection(params) {
   let counter = 1;
 
-  // setInterval(function () {
-  //   document.getElementById("radio" + counter).checked = true;
-  //   document.getElementById("hero" + counter).checked = true;
-  //   counter++;
-  //   if (counter > 4) {
-  //     counter = 1;
-  //   }
-  // }, 4000);
+  setInterval(function () {
+    document.getElementById("radio" + counter).checked = true;
+    document.getElementById("hero" + counter).checked = true;
+    counter++;
+    if (counter > 4) {
+      counter = 1;
+    }
+  }, 4000);
 
   document.addEventListener("scroll", () => {
     const HeroScroll = document.getElementById("HeroParallax");
