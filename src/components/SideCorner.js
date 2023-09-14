@@ -56,10 +56,10 @@ const Main = styled.div`
   }
 `;
 
-export default function SideCorner() {
+export default function SideCorner(props) {
   return (
     <>
-      <Main>
+      <Main style={props.style}>
         <a href="/contact">
           <span className="SpanFirst">
             <span className="SpanSecond">
@@ -68,7 +68,7 @@ export default function SideCorner() {
                   style={{
                     top: "-30px",
                     height: "31px",
-                    right: "10px",
+                    right: "9px",
                     transform: "rotate(180deg) scale(1.01)",
                   }}
                 />
@@ -94,7 +94,7 @@ export default function SideCorner() {
                 </div>
                 <Corner
                   style={{
-                    left: "-30px",
+                    left: "-29px",
                     top: "31px",
                     transform: "rotate(180deg) scale(1.01)",
                   }}

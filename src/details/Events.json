@@ -1,0 +1,72 @@
+[
+    {
+        "eventTitle":"Inauguration To Code Hives",
+        "poster":"Images/Events/event_1.jpg",
+        "backgroundColor":"#ab5e46"
+    },
+    {
+        "eventTitle":"Introduction To Git-GitHub",
+        "poster":"Images/Events/event_2.jpg",
+        "backgroundColor":"#297157"
+    },
+    {
+        "eventTitle":"Glance At WebDesigning",
+        "poster":"Images/Events/event_3.jpg",
+        "backgroundColor":"#593838"
+    },
+    {
+        "eventTitle":"Dive Into Docker",
+        "poster":"Images/Events/event_4.jpg",
+        "backgroundColor":"#8d4b14"
+    },
+    {
+        "eventTitle":"Essentials To DataScience",
+        "poster":"Images/Events/event_5.jpg",
+        "backgroundColor":"#d6961f"
+    },
+    {
+        "eventTitle":"Fundamentals Of QA-Engineering",
+        "poster":"Images/Events/event_6.jpg",
+        "backgroundColor":"#ba3950"
+    },
+    {
+        "eventTitle":"Debate competition",
+        "poster":"Images/Events/event_7.jpg",
+        "backgroundColor":"#471b47"
+    },
+    {
+        "eventTitle":"Inauguration To Code Hives",
+        "poster":"Images/Events/event_1.jpg",
+        "backgroundColor":"#ab5e46"
+    },
+    {
+        "eventTitle":"Introduction To Git-GitHub",
+        "poster":"Images/Events/event_2.jpg",
+        "backgroundColor":"#297157"
+    },
+    {
+        "eventTitle":"Glance At WebDesigning",
+        "poster":"Images/Events/event_3.jpg",
+        "backgroundColor":"#593838"
+    },
+    {
+        "eventTitle":"Dive Into Docker",
+        "poster":"Images/Events/event_4.jpg",
+        "backgroundColor":"#8d4b14"
+    },
+    {
+        "eventTitle":"Essentials To DataScience",
+        "poster":"Images/Events/event_5.jpg",
+        "backgroundColor":"#d6961f"
+    },
+    {
+        "eventTitle":"Fundamentals Of QA-Engineering",
+        "poster":"Images/Events/event_6.jpg",
+        "backgroundColor":"#ba3950"
+    },
+    {
+        "eventTitle":"Debate competition",
+        "poster":"Images/Events/event_7.jpg",
+        "backgroundColor":"#471b47"
+    }
+]

@@ -112,7 +112,7 @@ const Navmenu = styled.div`
   @media only screen and (max-width: 1045px) {
     /* width: calc(100% - 40px); */
     opacity: 0;
-    /* visibility: hidden; */
+    visibility: hidden;
     background-color: #f13e1f;
     position: absolute;
     top: 60px;
@@ -303,6 +303,7 @@ export default function Navbar() {
 
       if (currentOpacity === 0) {
         menu.style.opacity = 1;
+        menu.style.visibility = "visible";
         corner.style.opacity = 1;
         socialMain.style.backgroundColor = "#f13e1f";
         socialBtn.style.border = "2px solid #1e1e1e00";
@@ -312,6 +313,7 @@ export default function Navbar() {
       } else {
         menu.style.opacity = 0;
         corner.style.opacity = 0;
+        menu.style.visibility = "hidden";
         socialMain.style.backgroundColor = "transparent";
         socialBtn.style.border = "2px solid #1e1e1e";
         menuBtn.style.backgroundColor = "#f13e1f";
@@ -329,7 +331,7 @@ export default function Navbar() {
             <Corner />
             <LogoContainer>
               <img src="Images/logo.png" alt="Logo" width={800} height={500} />
-              <p>C⬡DEHIVES</p>
+              <p>CodeHives</p>
             </LogoContainer>
             <Corner style={{ top: 0, left: "100%" }} />
           </Logo>

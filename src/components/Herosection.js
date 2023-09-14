@@ -9,12 +9,15 @@ const Container = styled.div`
   max-width: 1800px;
   padding: 0 40px;
   top: 0px;
+  margin-bottom: 160px;
 
   @media only screen and (max-width: 1045px) {
     padding: 0 20px;
   }
+  
   @media only screen and (max-width: 830px) {
     padding: 0 10px;
+    margin-bottom: 80px;
   }
 `;
 
@@ -647,9 +650,9 @@ export default function Herosection(params) {
               <Corner
                 style={{
                   top: "auto",
-                  bottom: "-1px",
+                  bottom: "0px",
                   left: "auto",
-                  right: "-29px",
+                  right: "-30px",
                   transform: "rotate(-90deg)",
                 }}
               />
