@@ -17,6 +17,7 @@ const Container = styled.section`
 
   @media only screen and (max-width: 830px) {
     margin: 80px 0;
+    margin-top: 0;
   }
 
   .pastEventTitle {
@@ -82,8 +83,9 @@ const Container = styled.section`
   }
 
   .card {
-    /* width: 317.25px !important; */
-    margin-right: 10px;
+    @media only screen and (max-width: 830px) {
+      margin-right: 14px !important;
+    }
 
     .innerCard {
       background-color: #0046c7;
@@ -119,6 +121,11 @@ const Container = styled.section`
             margin: -40px auto auto;
             border-radius: 50%;
             overflow: hidden;
+
+            @media only screen and (max-width: 830px) {
+              width: 90%;
+              margin: -30px auto 10px;
+            }
             /* -webkit-mask-image: -webkit-radial-gradient(#fff, #000); */
 
             span {
@@ -175,7 +182,8 @@ export default function PastEvents(params) {
           <Swiper
             slidesPerView={1}
             loop={true}
-            initialSlide={7}
+            initialSlide={1}
+            spaceBetween={10}
             breakpoints={{
               500: {
                 slidesPerView: 2,
